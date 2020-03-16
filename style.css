@@ -11,7 +11,8 @@
     font-size: 18px;
     font-weight: bolder;
     font-family: 'Montserrat', sans-serif;
-    border-bottom-style: solid;    
+    border-bottom-style: solid; 
+    border-bottom-width: 5px;   
 }
 .nav-item > .nav-link{
     color: white !important;
