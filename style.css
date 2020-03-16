@@ -37,3 +37,26 @@
 .lang-selected{
     color: white;
 }
+.text-container{    
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    position: absolute; 
+    top: 448px;
+    left: 252px;
+}
+.headline{
+    font-size: 100px;
+    font-weight: bolder;
+}
+.text-divider{
+    color: #B4FF00;
+    font-weight: bolder;
+    font-size: 100px;
+    position: absolute;
+    top: 15px;
+    left: 9px;
+}
+.main-text{
+    font-size: 30px;
+    font-weight: bolder;
+}
