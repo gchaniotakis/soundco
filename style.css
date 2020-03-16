@@ -1,0 +1,21 @@
+.navbar-nav.navbar-center{
+    position: absolute;
+    left: 40%;
+    transform: translatex(-50%);
+}
+.navbar.navbar-expand-lg.navbar-light{
+    background-color: black;
+}
+.nav-item.active > .nav-link{
+    color: #B4FF00 !important;
+    font-size: 18px;
+    font-weight: bolder;
+    font-family: 'Montserrat', sans-serif;
+    border-bottom-style: solid;    
+}
+.nav-item > .nav-link{
+    color: white !important;
+    font-size: 18px;
+    font-weight: bolder;
+    font-family: 'Montserrat', sans-serif;       
+}
