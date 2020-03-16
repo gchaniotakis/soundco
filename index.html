@@ -16,33 +16,33 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav navbar-center">
-              <li class="nav-item active">
+              <li class="nav-item active" id="menu-item-1">
                 <a class="nav-link" href="#">Main One <span class="sr-only">(current)</span></a>
               </li>
-              <li class="nav-item">
+              <li class="nav-item" id="menu-item-2">
                   <a class="nav-link" href="#">Page Two</a>
               </li>
-              <li class="nav-item">
+              <li class="nav-item" id="menu-item-3">
                 <a class="nav-link"href="#">Page Three</a>
               </li>
-              <li class="nav-item">
+              <li class="nav-item" id="menu-item-4">
                 <a class="nav-link" href="#">About Us</a>
               </li>
-              <li class="nav-item">
+              <li class="nav-item" id="menu-item-5">
                  <a class="nav-link" href="#">Our Work</a>
               </li>
-              <li class="nav-item">
+              <li class="nav-item" id="menu-item-6">
                 <a class="nav-link" href="#">Contact</a>
               </li>
               <li class="nav-item language-selector" id="mobilelangselector" style="display: none;">
-                <span class="lang-selected">EN</span>&nbsp;<span class="lang-divider">|</span>
-                <span class="lang">GR</span>
+                <span class="lang-selected" id="en-mobile">EN</span>&nbsp;<span class="lang-divider">|</span>
+                <span class="lang" id="gr-mobile">GR</span>
               </li>
             </ul>
         </div>
         <div class="language-selector">
-          <span class="lang-selected">EN</span>&nbsp;|
-          <span class="lang">GR</span>
+          <span class="lang-selected" id="en-desk">EN</span>&nbsp;|
+          <span class="lang" id="gr-desk">GR</span>
         </div>
         <div class="search">
           <img src="assets/Path 629.svg"/>
@@ -74,7 +74,7 @@
         some advantage from it?
       </p>
     </div>
-    <div class="search-form container-fluid" id="searchform" style="">
+    <div class="search-form container-fluid" id="searchform" style="display: none;">
         <form>
           <input type="text" class="form-control" placeholder="Start Typing"/>
           <button class="btn btn-indigo btn-rounded btn-sm my-0 waves-effect waves-light">Search</button>
