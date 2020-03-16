@@ -28,6 +28,11 @@
     font-size: 22px;
     
 }
+.nav-item.language-selector{    
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif; 
+    font-size: 22px;
+}
 .lang-divider{
     color: #858585;
 }
@@ -59,4 +64,13 @@
 .main-text{
     font-size: 30px;
     font-weight: bolder;
+}
+.search-form{
+    background-color: white;
+}
+.navbar-toggler-icon{
+    background-color: black;
+}
+.navbar-toggler{
+    color: white;
 }
