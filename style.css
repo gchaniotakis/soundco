@@ -74,3 +74,11 @@
 .navbar-toggler{
     color: white;
 }
+.btn.btn-indigo.btn-rounded.btn-sm.my-0.waves-effect.waves-light{
+    background-color: #4B00FF;
+    color:white;
+    font-size: 32px;
+    font-weight: bolder;
+    font-family: 'Montserrat', sans-serif;
+    border-radius: 25px;
+}
